@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Synto Dashboard</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav-area ">
+            <div class="col-3">
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+
+            <nav class="d-flex ">
+                <div class="icons-area">
+                    <ul>
+                        <li><button><img class="aze" src="/src/image/Azerbaycan.png" alt=""></button></li>
+
+                        <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                    viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M19.023 16.977a35.13 35.13 0 0 1-1.367-1.384c-.372-.378-.596-.653-.596-.653l-2.8-1.337A6.962 6.962 0 0 0 16 9c0-3.859-3.14-7-7-7S2 5.141 2 9s3.14 7 7 7c1.763 0 3.37-.66 4.603-1.739l1.337 2.8s.275.224.653.596c.387.363.896.854 1.384 1.367l1.358 1.392l.604.646l2.121-2.121l-.646-.604c-.379-.372-.885-.866-1.391-1.36M9 14c-2.757 0-5-2.243-5-5s2.243-5 5-5s5 2.243 5 5s-2.243 5-5 5" />
+                                </svg></a></li>
+
+                        <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                    viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M20.742 13.045a8.088 8.088 0 0 1-2.077.271c-2.135 0-4.14-.83-5.646-2.336a8.025 8.025 0 0 1-2.064-7.723A1 1 0 0 0 9.73 2.034a10.014 10.014 0 0 0-4.489 2.582c-3.898 3.898-3.898 10.243 0 14.143a9.937 9.937 0 0 0 7.072 2.93a9.93 9.93 0 0 0 7.07-2.929a10.007 10.007 0 0 0 2.583-4.491a1.001 1.001 0 0 0-1.224-1.224m-2.772 4.301a7.947 7.947 0 0 1-5.656 2.343a7.953 7.953 0 0 1-5.658-2.344c-3.118-3.119-3.118-8.195 0-11.314a7.923 7.923 0 0 1 2.06-1.483a10.027 10.027 0 0 0 2.89 7.848a9.972 9.972 0 0 0 7.848 2.891a8.036 8.036 0 0 1-1.484 2.059" />
+                                </svg></a></li>
+
+                        <li><a href=""><i class="fa-solid fa-expand"></i> </a></li>
+                        <li><a href=""> <i class="fa-solid fa-basket-shopping"></i> </a></li>
+                        <div class="bell">
+                            <li>
+                                <div></div>
+                                <a href=""><i class="fa-regular fa-bell"></i>
+                                </a>
+                            </li>
+                        </div>
+                        <li><a href=""><i class="fa-regular fa-bookmark"></i></a></li>
+
+                    </ul>
+
+                    <div class="country-languages d-none ">
+                        <ul class="flag-area">
+                            <li class="list1">
+                                <img src="/src/image/england.jpg" alt="">
+                                <span> English</span>
+                            </li>
+
+                            <li class="list2">
+                                <img src="src/image/germany.jpg" alt="">
+                                <span> German</span>
+                            </li>
+
+                            <li class="list3">
+                                <img src="src/image/italy.jpg" alt="">
+                                <span> Italian</span>
+                            </li>
+
+                            <li class="list4">
+                                <img src="src/image/spain.jpg" alt="">
+                                <span> Spain</span>
+                            </li>
+
+                            <li class="list5">
+                                <img src="src/image/russia.jpg" alt="">
+                                <span> Russian</span>
+                            </li>
+
+                            <li class="list6">
+                                <img src="src/image/french.jpg" alt="">
+                                <span> French</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="shop-notice">5</div>
+                </div>
+
+                <div class="user d-flex ">
+                    <a href=""> <img src="src/image/1.jpg" alt=""></a>
+
+                </div>
+
+                <div class="setting-icon">
+                    <i class="fa-solid fa-gear fa-spin"></i>
+                </div>
+            </nav>
+        </div>
+
+        <div class="side-bar">
+            <div class="close-btn">
+                <i class="fas fa-times"></i>
+            </div>
+
+            <div class="sideBar-logo">
+                <a href=""> <img src="src/image/desktop-dark.png" alt=""></a>
+            </div>
+
+            <div class="dashbord-line"></div>
+
+            <div class="menu">
+                <div class="container ">
+                    <div class="main"><span>MAIN</span></div>
+                    <div class="item"><a class="sub-btn"><i class="fas fa-desktop"></i>
+                            Dashboards<i class="fa-solid fa-angle-right right dropdown "></i>
+                            <div class="sub-menu">
+                                <ul>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i> Sales</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i> Crypto</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i> Jobs</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i> CRM</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>
+                                            Ecommerce</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>
+                                            Analiystic</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i> Projects</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i> NFT</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i> HRM</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i> Personal</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i> Stocks</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i> Course</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </a></div>
+
+                    <div class="main"><span>GENERAL</span></div>
+                    <div class="item"><a class="sub-btn"><i class="fa-solid fa-cube"></i>
+                            Components <p class="number">12</p><i class="fa-solid fa-angle-right right"></i>
+                            <div class="sub-menu">
+                                <ul>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Accordions &
+                                            Collapse</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Carousel</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Draggable
+                                            Cards</a></li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Modals &
+                                            Closes</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Navbars</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Offcanvas</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i
+                                                class="fa-solid fa-minus minus"></i>Placeholders</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Ratings</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Scrollspy</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Swiper JS</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </a></div>
+
+                    <div class="main"><span>PAGES</span></div>
+                    <div class="item"><a class="sub-btn"><i class="fa-solid fa-lock"></i>
+                            Authentication <p class="number">12</p><i class="fa-solid fa-angle-right autentication"></i>
+                            <div class="sub-menu">
+                                <ul>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Coming
+                                            Soon</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Create
+                                            Password</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Lock
+                                            Screen</a></li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Reset
+                                            Password</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Sign Up</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Sign In</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Two Step
+                                            Verification</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Under
+                                            Maintenance</a>
+                                    </li>
+                                    <li><a href="" class="sub-item"><i
+                                                class="fa-solid fa-minus minus"></i>no-internet</a></li>
+                                    <li><a href="" class="sub-item"><i class="fa-solid fa-minus minus"></i>Error</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </a></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="dashboard-title">
+            <div class="container">
+                <div class="title-area">
+                    <div class="title">
+                        <h1>Projects Dashboard</h1>
+                    </div>
+                    <div class="home-dashboard">
+                        <a href="">Home</a>
+                        <i class="fa-solid fa-angles-right"></i>
+                        <span> Projects Dashboard</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="project-analysis">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="row-box1">
+                                    <div class="title">
+                                        <h6>Total Projects</h6>
+                                        <h4>1,293</h4>
+                                        <div class="d-flex ">
+                                            <div class="percent">1.35%</div>
+                                            <span>Since Last Month</span>
+                                        </div>
+                                    </div>
+                                    <div class="book-icon">
+                                        <i class="ri-book-open-line"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="row-box2">
+                                    <div class="title">
+                                        <h6>Completed</h6>
+                                        <h4>853</h4>
+                                        <div class="d-flex ">
+                                            <div class="percent">1.25%</div>
+                                            <span>Since Last Month</span>
+                                        </div>
+                                    </div>
+                                    <div class="book-icon">
+                                        <i class="ri-task-line"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="row-box3">
+                                    <div class="title">
+                                        <h6>In Complete</h6>
+                                        <h4>625</h4>
+                                        <div class="d-flex ">
+                                            <div class="percent">2.23%</div>
+                                            <span>Since Last Month</span>
+                                        </div>
+                                    </div>
+                                    <div class="book-icon">
+                                        <i class="ri-file-warning-line"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="box4">
+
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="box5">
+                            <div class="img"><img src="/src/image/qaqquli.png" alt=""></div>
+                            <div class="title">
+                                <h5>Welcome Back ...!</h5>
+                                <span>Start Working On the Assigned project....</span>
+
+                            </div>
+
+                            <button>Let's Start</button>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="row-box4">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="going-projects">
+            <div class="container">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="on-going-projects">
+
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="on-going-projects">
+
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="on-going-projects">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="projects-summary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="summary">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="foot">
+            <span> Copyright © 2024</span>
+            <a href="">Synto.</a>
+            <span>Designed with <i class="fa-solid fa-heart"></i> by</span>
+            <a href=""> Spruko</a>
+            <span>All rights reserved</span>
+
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/e53a0e3ee5.js" crossorigin="anonymous"></script>
+    <script src="src/js/script.js"></script>
+</body>
+
+</html>
